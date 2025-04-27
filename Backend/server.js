@@ -6,6 +6,7 @@ app.get("/", (req, res) => {
   res.send("app is ready");
 });
 
+
 // get a list of name
 app.get("/api/name", (req, res) => {
   const name = [
@@ -50,3 +51,4 @@ app.listen(port, () => {
 // or another way to start server
 
 // app.listen(port);
+ 
